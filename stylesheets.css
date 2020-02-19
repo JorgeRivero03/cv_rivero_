@@ -1,0 +1,58 @@
+body{
+
+	background-color: #2F4F4F;
+	font-family:"Helvetica",Arial;
+
+}
+
+.contenido{
+	border: 1px solid #eee;
+	margin: 0 auto;
+	width: 80%;
+	background: #C0C0C0;
+	padding: 10px;
+	text-align: justify;
+
+}
+
+.principal{
+	background-color: #2F4F4F;
+	padding: 10px;
+
+}
+
+.header{
+	display: 50%;
+	text-align: center;
+	margin-right: 100px;
+}
+
+.nombre{
+	width: 100%;
+}
+
+.titulo{
+	border: 1px solid #2F4F4F;
+	text-align: center;
+	background-color: #2F4F4F;
+	position: relative;
+	border-radius: 30px;
+	-webkit-animation-name: animacion1;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function:ease;
+	-webkit-animation-delay: 2s;
+
+}
+
+@-webkit-keyframes animacion1{
+	from{
+		left: 30px;
+		background-color: white;
+	}
+	to{
+		left: 100px;
+		background-color: #2F4F4F;
+	}
+}

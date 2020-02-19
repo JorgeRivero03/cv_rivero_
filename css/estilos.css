@@ -1,0 +1,14 @@
+body{
+	background-color: #2F4F4F;
+	font-family:"Helvetica",Arial;
+
+}
+
+.titulo{
+	border: 1px solid #eee;
+	margin: 0 auto;
+	width: 80%;
+	background: #C0C0C0;
+	padding: 10px;
+	text-align: justify;
+}
